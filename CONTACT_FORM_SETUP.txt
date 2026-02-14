@@ -1,0 +1,22 @@
+CONTACT FORM – RECEIVE MESSAGES TO YOUR EMAIL
+==============================================
+
+Right now the form does not send emails because it needs your Formspree form ID.
+
+Steps (free, takes ~2 minutes):
+--------------------------------
+1. Go to: https://formspree.io
+2. Sign up (or log in) with your email.
+3. Click "New Form".
+4. Give it a name (e.g. "Portfolio contact") and use your email: reddyajay510@gmail.com
+5. After creating the form, you'll see a form endpoint like:
+   https://formspree.io/f/xyzabcde
+   The part after /f/ is your FORM ID (e.g. xyzabcde).
+6. Open index.html in your portfolio folder.
+7. Find this line:
+   action="https://formspree.io/f/YOUR_FORMSPREE_ID"
+8. Replace YOUR_FORMSPREE_ID with your actual form ID, e.g.:
+   action="https://formspree.io/f/xyzabcde"
+9. Save index.html. From then on, when someone submits the form, you'll get the message at reddyajay510@gmail.com.
+
+Formspree free tier: 50 submissions per month (enough for a portfolio).
