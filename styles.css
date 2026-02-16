@@ -654,36 +654,51 @@ main {
 
 .timeline {
   position: relative;
-  margin-top: 20px;
-  padding-left: 30px;
-  border-left: 2px solid #2563eb;
+  margin-top: 30px;
+  padding-left: 40px;
+  border-left: 3px solid #2563eb;
 }
 
 .timeline-item {
   position: relative;
-  margin-bottom: 30px;
+  margin-bottom: 70px;
 }
 
 .timeline-dot {
   position: absolute;
-  left: -11px;
-  top: 5px;
-  width: 16px;
-  height: 16px;
+  left: -14px;
+  top: 8px;
+  width: 18px;
+  height: 18px;
   background: #2563eb;
   border-radius: 50%;
+  box-shadow: 0 0 0 4px rgba(37, 99, 235, 0.2);
+}
+
+.timeline-content {
+  padding: 18px 22px;
+  background: rgba(255, 255, 255, 0.03);
+  border-radius: 12px;
+  backdrop-filter: blur(6px);
+  transition: transform 0.3s ease;
+}
+
+.timeline-content:hover {
+  transform: translateY(-4px);
 }
 
 .timeline-content h4 {
-  margin: 0;
-  color: #2563eb;
+  margin: 0 0 12px 0;
+  font-size: 1.1rem;
   font-weight: 600;
+  color: #3b82f6;
 }
 
 .timeline-content p {
   margin: 8px 0;
+  line-height: 1.7;
+  color: var(--muted);
 }
-
 
 /* Responsive */
 
