@@ -656,7 +656,7 @@ main {
   position: relative;
   margin-top: 30px;
   padding-left: 40px;
-  border-left: 3px solid #2563eb;
+  border-left: 2px solid #2563eb;
 }
 
 .timeline-item {
@@ -666,14 +666,17 @@ main {
 
 .timeline-dot {
   position: absolute;
-  left: -14px;
+  left: -18px;   /* move dot slightly left */
   top: 8px;
-  width: 18px;
-  height: 18px;
+  width: 14px;
+  height: 14px;
   background: #2563eb;
   border-radius: 50%;
+
+  /* add glow ring */
   box-shadow: 0 0 0 4px rgba(37, 99, 235, 0.2);
 }
+
 
 .timeline-content {
   padding: 18px 22px;
