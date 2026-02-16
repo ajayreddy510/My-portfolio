@@ -699,6 +699,44 @@ main {
   line-height: 1.7;
   color: var(--muted);
 }
+/* ===== Education Timeline ===== */
+
+.timeline {
+  position: relative;
+  margin-top: 30px;
+  padding-left: 50px;
+  border-left: 3px solid #2563eb;
+}
+
+.timeline-item {
+  position: relative;
+  margin-bottom: 40px;
+}
+
+.timeline-dot {
+  position: absolute;
+  left: -30px;
+  top: 8px;
+  width: 14px;
+  height: 14px;
+  background: #2563eb;
+  border-radius: 50%;
+  border: 3px solid #0f172a; /* same as your background */
+}
+
+.timeline-content h4 {
+  margin: 0 0 6px 0;
+  color: #2563eb;
+  font-weight: 600;
+  font-size: 18px;
+}
+
+.timeline-content p {
+  margin: 4px 0;
+  line-height: 1.6;
+  color: #cbd5e1;
+}
+
 
 /* Responsive */
 
