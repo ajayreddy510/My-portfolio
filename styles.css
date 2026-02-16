@@ -650,6 +650,40 @@ main {
   color: var(--muted);
   font-size: 0.8rem;
 }
+/* ===== Education Timeline ===== */
+
+.timeline {
+  position: relative;
+  margin-top: 20px;
+  padding-left: 30px;
+  border-left: 2px solid #2563eb;
+}
+
+.timeline-item {
+  position: relative;
+  margin-bottom: 30px;
+}
+
+.timeline-dot {
+  position: absolute;
+  left: -11px;
+  top: 5px;
+  width: 16px;
+  height: 16px;
+  background: #2563eb;
+  border-radius: 50%;
+}
+
+.timeline-content h4 {
+  margin: 0;
+  color: #2563eb;
+  font-weight: 600;
+}
+
+.timeline-content p {
+  margin: 8px 0;
+}
+
 
 /* Responsive */
 
